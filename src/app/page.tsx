@@ -3,6 +3,7 @@ import Navbar from "../components/NavBar/NavBar";
 import HeroSection from "../components/Hero/HeroSection";
 import StatsSection from "../components/StatsSection/StatsSection";
 import Organisations from "../components/Organisations/Organisations";
+import SearchBar from "../components/SearchBar/SearchBar";
 
 export default function Home() {
   return (
@@ -11,7 +12,6 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <Organisations />
-
     </main>
   
   );

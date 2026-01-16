@@ -1,7 +1,14 @@
 // components/SearchBar.tsx
 export default function SearchBar() {
   return (
-    <div className="flex bg-white rounded-lg overflow-hidden max-w-4xl mx-auto shadow-lg">
+    <div className="bg-white shadow-lg
+        rounded-2xl
+        max-w-md 
+        mx-4 md:mx-auto
+        p-6
+        flex flex-col gap-4
+        md:flex-row md:items-center md:gap-0
+        md:max-w-4xl md:p-0 md:rounded-lg">
       
       {/* Training Title */}
       <input
@@ -27,7 +34,14 @@ export default function SearchBar() {
       </select>
 
       {/* Button */}
-      <button className="bg-teal-500 px-6 text-white font-semibold hover:text-cyan-300">
+      <button className=" mt-2
+          bg-teal-500
+          text-white font-semibold
+          py-4
+          rounded-lg
+          hover:bg-teal-600
+          transition
+          md:mt-0 md:px-6 md:rounded-none md:rounded-r-lg">
         Search Training
       </button>
     </div>

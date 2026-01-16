@@ -6,7 +6,7 @@ import { BiBriefcase } from 'react-icons/bi';
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-10 py-6 bg-black text-white duration-200 h-[12vh] z-[10000] fixed w-full">
+    <nav className="flex items-center justify-between px-10 py-6 bg-black text-white duration-200 h-[12vh] z-[1000] fixed w-full">
       
       <Link href="/" className='flex items-center gap-3'>
       <div className='w-10 h-10 bg-black rounded-full flex items-center justify-center'>

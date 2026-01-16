@@ -15,7 +15,7 @@ export default function HeroSection() {
       </h1>
 
       <p className="text-gray-300 mb-8">
-        Connecting Organisations With Trainers : Making The Workforce Industry Ready 
+        Connecting Organisations With Trainers : Making The Workforce Industry Ready ...
       </p>
 
       <div className="flex justify-center py-2 gap-4 mb-10">

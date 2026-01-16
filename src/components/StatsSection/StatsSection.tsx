@@ -5,7 +5,7 @@ import { BiBuildings } from "react-icons/bi";
 
 export default function StatsSection() {
   return (
-    <div className="flex flex-wrap justify-center gap-20 text-white py-20">
+    <div className="flex flex-wrap justify-center gap-20 text-white px-4">
       <Stat icon = {<LuBriefcaseBusiness size={28} />} number="25,850" label="Trainings" />
       <Stat icon = {<FaUsers size={28}/> } number="10,250" label="Trainers" />
       <Stat icon = {<BiBuildings size= {28}/>} number="18,400" label="Organisations" />

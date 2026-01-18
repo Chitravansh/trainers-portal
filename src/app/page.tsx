@@ -9,7 +9,7 @@ import PWAInstallButton from "../components/PWA/PWAInstallButton";
 export default function Home() {
   return (
     <main className=" min-h-screen bg-black">
-      <Navbar />
+      
       <HeroSection />
       <StatsSection />
       <Organisations />

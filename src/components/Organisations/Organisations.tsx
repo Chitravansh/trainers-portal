@@ -10,12 +10,19 @@ const organizations = [
 
 export default function Organisations() {
   return (
-    <section className="bg-black py-14">
+    <section className="bg-black py-14 overflow-hidden">
       
       {/* Section Title */}
       <p className="text-center text-gray-400 mb-10 tracking-wide">
         Trusted by leading organizations
       </p>
+
+
+      {/*Marquee Wrapper  */}
+      <div className="relative w-full overflow-hidden">
+        <div className=" flex w-max items center gap-24" style ={{
+          animation : "marquee 25s linear infinite",
+        }}>
 
       {/* Logos */}
       <div className="max-w-6xl mx-auto flex flex-wrap justify-center items-center gap-16 opacity-80">
@@ -26,10 +33,12 @@ export default function Organisations() {
             alt={org.name}
             width={120}
             height={40}
-            className="invert grayscale  transition duration-300"
+            className="invert grayscale transition duration-300"
             //  hover:grayscale-0
           />
         ))}
+        </div>
+        </div>
       </div>
     </section>
   );

@@ -1,5 +1,14 @@
+"use client";
+import { useRouter } from "next/navigation";
+
+
+
+
 // components/SearchBar.tsx
 export default function SearchBar() {
+
+  const router = useRouter();
+
   return (
     <div className="bg-white shadow-lg
         rounded-2xl
@@ -34,7 +43,9 @@ export default function SearchBar() {
       </select>
 
       {/* Button */}
-      <button className=" mt-2
+      <button
+      onClick={() => router.push("/trainings")}
+       className=" mt-2
           bg-teal-500
           text-white font-semibold
           py-4

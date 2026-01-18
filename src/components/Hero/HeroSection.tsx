@@ -20,7 +20,7 @@ export default function HeroSection() {
 
       <div className="flex justify-center py-2 gap-4 mb-10">
         <button className="bg-teal-500 px-6 py-3 rounded-lg text-white hover:text-cyan-300">
-          Find Training
+          Join As Trainer
         </button>
         <button className="bg-white text-black px-6 py-3 rounded-lg hover:bg-cyan-300">
           Find Trainer
